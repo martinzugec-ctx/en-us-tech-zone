@@ -1,7 +1,8 @@
 ---
 layout: doc
 h3InToc: true
-contributedBy: [Rick Dehlinger](https://www.linkedin.com/in/rickdehlinger/)
+author: Rick Dehlinger
+contributedBy: JP Alfaro, Jeff Allen, Stefano Castelli, Gavin Connolly, Kishore Kunisetty, Dan Lazar, Rich Meesters, John Moody, Mads Petersen, Michael Shuster, Anthony Zepeda
 ---
 
 # Design Guide -Citrix virtualization on Google Cloud
@@ -11,7 +12,7 @@ contributedBy: [Rick Dehlinger](https://www.linkedin.com/in/rickdehlinger/)
 The goal of this document is to provide targeted, real world guidance for customers and partners looking to find success with Citrix virtualization tech on Google Cloud.
 In this guide, we’ll walk you through designing a Citrix virtualization system on GCP. As the journey progresses, we’ll be discussing the implications of the decisions you’ll need to make, and curating additional reference resources along the way. This guide is designed to be a living document, so you’ll want to bookmark it and come back to it periodicallyto see how things change over time.
 
-We’ll start by reviewing the common [design patternsfor](https://word-view.officeapps.live.com/wv/WordViewer/Document.pdf) Citrix virtualization technologies on Google Cloud. Some may think of these as ‘reference architectures’, but when we’re working with infrastructure as code and cloud services, ‘design patterns’ make a lot more sense.
+We’ll start by reviewing the common [design patterns for](https://word-view.officeapps.live.com/wv/WordViewer/Document.pdf) Citrix virtualization technologies on Google Cloud. Some may think of these as ‘reference architectures’, but when we’re working with infrastructure as code and cloud services, ‘design patterns’ make a lot more sense.
 
 Next we’ll explore the [Solution Components and Requirements](#_heww0fvamrnv). We’ll lay out the solution prerequisites and give you an overview of what services/components are required to create a Citrix Cloud ‘[resource location](/en-us/citrix-virtual-apps-desktops-service/install-configure/resource-location.html)’.
 
