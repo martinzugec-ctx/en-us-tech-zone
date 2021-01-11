@@ -2,13 +2,12 @@
 layout: doc
 h3InToc: true
 contributedBy: Andy Mills, Patrick Coble, Martin Zugec
-specialThanksTo: Eric Beiers, Steven Wright
+specialThanksTo: Eric Beiers, Steven Wright, Jessie LaCome
 description: Tech paper focused on security recommendations and security practices for administrators.  Use this guide to navigate security planning, implementation, and ongoing operation.
 ---
 # Security best practices for Citrix Virtual Apps and Desktops
 
-*Disclaimer: This information is provided on an “AS IS” basis without warranty of any kind, for information purposes only,
-and is subject to change at any time at Citrix’s sole discretion.*
+*Disclaimer: This information is provided on an "AS IS" basis without warranty of any kind, for information purposes only, and is subject to change at any time at Citrix's sole discretion.*
 
 ## Introduction
 
