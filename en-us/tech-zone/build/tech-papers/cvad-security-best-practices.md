@@ -32,7 +32,7 @@ When a business is considering how to best enable their end-users to connect to 
 
 ### Device Lockdown
 
-The endpoint device has the potential to be used as an attack vector, including such attacks as keyloggers or points of ingress into the network. The benefit when using Citrix technologies like Virtual Apps and Desktops, is that the ingress point is reduced to the mouse, keyboard, and screen refreshes. If users require more functionality such as accessing local client drives, printing facilities, and clipboard functionality, must be enabled on a case-by-case basis. As capabilities increase Citrix does have controls to reduce the risk of these attack vectors such as anti-keylogging and disabling any points of ingress/egress.
+The endpoint device has the potential to be used as an attack vector, including such attacks as keyloggers or points of ingress into the network. The benefit when using Citrix technologies like Virtual Apps and Desktops, is that the ingress point is reduced to the mouse, keyboard, and screen refreshes. If users require more functionality such as accessing local client drives, printing facilities, and clipboard functionality, it must be configured using a policy. As capabilities increase Citrix does have controls to reduce the risk of these attack vectors such as anti-keylogging and disabling any points of ingress/egress.
 
 These are all questions for the IT support teams to consider when deploying devices to the end users.
 
@@ -45,7 +45,9 @@ These are all questions for the IT support teams to consider when deploying devi
 
 ### Endpoint Logging
 
-Even if a user cannot install software on the endpoint, ensuring logs are enabled and centrally captured. These logs will help you to understand what may have occurred in a breach or providing to the forensic analyst for further review. Logging is a crucial element to any environment, and its security monitoring processes. There is a trade-off though, it is easy to get overwhelmed by the amount of reported data. Make sure you can detect and respond to a potential alert. It is also a good practice to forward all logs to a Security Information and Event Management (SIEM) system. This detail will allow you to set alerts for known attack methods or other key events.
+Even if a user cannot install software on the endpoint, make sure that logs are enabled and centrally captured. These logs can help you to understand what may have occurred in a breach or providing to the forensic analyst for further review. Logging is a crucial element to any environment, and its security monitoring processes. It is also a good practice to forward all logs to a Security Information and Event Management (SIEM) system. This detail will allow you to set alerts for known attack methods or other key events.
+
+As with any kind of data collection, it is important to not only collect data, but be able to analyze it. It is easy to get overwhelmed by the amount of reported data. Make sure you can detect and respond to a potential alert.
 
 ### Thin Client terminals
 
@@ -53,13 +55,25 @@ In many scenarios, thin client devices are perfect for high-risk environments. T
 
 For thin client terminals that run a full operating system, the use of write filters to stop the persistence of data is useful. Resetting the terminals when a reboot occurs reduces the chance of an attacker persisting data on the endpoint that can be used to formulate an attack. Make sure you are not destroying logs and other critical data, as it may be needed for later forensic analysis. Thin Client terminals have the added benefit of usually being cheaper to purchase and maintain than traditional desktops or laptops.
 
+### Content Redirection
+
+TODO Offloading BCR, Flash redirection etc...
+
 ### Patching
 
 Patch management must be one of the foremost considerations to factor into choosing an endpoint. How does the business get security fixes applied to the endpoints? In most traditional Windows environments, machines have patches pushed to them through Windows Services Update Service (WSUS), System Center Configuration Manager (SCCM), or through other automated services. This is great if the endpoint is managed by the corporate IT teams.
 
-What about BYOD? Who patches those devices to ensure they are up to date? With Work from Home growing quickly, endpoint patching becomes more complicated. This is where policies must be defined with clear responsibilities for the user. This is needed to ensure that users know how to patch and update their devices. Simple notifications on the login page suggesting a new update has been released and they need to be patched as soon as possible is one method. You can also use [Endpoint Analysis Scans (EPA)](/en-us/citrix-gateway/current-release/vpn-user-config/advanced-epa-policies.html) on the endpoint to deny access to the infrastructure unless they are running up to date software.
+What about BYOD? Who patches those devices to ensure they are up to date? With work from home growing rapidly, endpoint patching becomes more complicated. This is where policies must be defined with clear responsibilities for the user. This is needed to ensure that users know how to patch and update their devices. Simple notifications on the login page suggesting a new update has been released and they need to be patched as soon as possible is one method. You can also use [Endpoint Analysis Scans (EPA)](/en-us/citrix-gateway/current-release/vpn-user-config/advanced-epa-policies.html) on the endpoint to deny access to the infrastructure unless they are running up to date software.
 
 It is also important to ensure that the Citrix Workspace app is patched and up to date on the endpoint. Citrix provides not only feature enhancements, but also security fixes in new releases.
+
+### App Protection Policies
+
+The end user is widely considered the weakest piece on the attack surface of an organization. It has become common practice for attackers to use sophisticated methods to fool users into installing malware on their endpoints. Once installed, the malware can silently collect and exfiltrate sensitive data such as user’s credentials, sensitive information, company’s intellectual property, or confidential data. With the increase in BYO devices and access of corporate resources from unmanaged endpoints, endpoints become an even more exposed threat surface. With many users working from home, the risk to the organizations is heightened due to the untrustworthiness of the endpoint device.
+
+With the use of virtual apps and desktops, an attack surface of endpoints has been greatly reduced - data is stored centrally in a data center and it is much harder for the attacker to steal it. The virtual session is not running on the endpoint and users generally do not have permission to install apps within the virtual session. The data within the session is secure in the data center or cloud resource location. However, a compromised endpoint can capture session keystrokes and information displayed on the endpoint. Citrix provides administrators the ability prevent these attack vectors, using an add-on feature called App protection. The feature enables Citrix Virtual Apps and Desktops (CVAD) administrators to enforce policies specifically on one or more delivery groups. When users connect to sessions from these delivery groups, the user’s endpoint has either anti screen capture or anti-keylogging or both enforced on the endpoints.
+
+You can find more information in [App protection policies tech brief](/en-us/tech-zone/learn/tech-briefs/app-protection-policies.html).
 
 ### Account Management
 
@@ -202,13 +216,21 @@ Ensure HSTS is configured on all SSL VIPs. The primary goal of HTTP Strict Trans
 
 The resources that host the user session can present a higher level of risk to compromise. A user running a VDI session is as good as having a computer on their desk connected to the corporate network. Utilizing well-designed access and control layers allow the business to move towards zero-trust models; dynamically adjusting access to the resources presented to the end-user dependent upon a given set of variables. The following guidance provides higher levels of control in protecting the corporate assets from users.
 
+### Prevent Sessions Breakout
+
+TODO
+
 ### Build Hardening
 
 Hardening operating system builds can be complex and difficult to achieve. It comes with the trade-offs between user experience, usability, and security all being a fine balance. Many customers choose to follow the Center for Internet Security (CIS) baselines for hardening virtual machines in varying roles. Microsoft also provides hardening guides for similar workloads. There are even the ADMX files to implement directly into group policy. If you choose this route, proceed with caution. Be sure to test thoroughly first, as these initial policies may be overly restrictive. These baselines are a great starting point for hardening, however they are not meant to be exhaustive for all scenarios. The key to locking down is to test thoroughly and encourage third party penetration testing engagements to validate your security controls and their effectiveness against the latest attack methods.
 
 As part of hardening the system, we recommended that administrators spend some time optimizing the underlying operating systems, services, and scheduled tasks. This removes any unnecessary processes from the underlying systems. This improves the responsiveness of the session host and provides an improved user experience to the end-user. Citrix provides the optimizer tool [Citrix Optimizer](https://support.citrix.com/article/CTX224676) that optimizes many elements of the operating system automatically for administrators. The Citrix Optimizer results to adjust to ensure there is no negative impact within your environment.
 
-### Windows Patching
+TODO reduce the attack surface
+
+TODO Avoiding use of privileged accounts for scheduled tasks or scripts where possible
+
+### Patching and Updates
 
 Ensuring IT systems are patched and up to date is standard practice for all software, operating systems, and hypervisors. Providers have an obligation to ensure that their software or applications are patched and do not allow any security vulnerabilities. Some provide more stability and feature enhancements. Nearly all vendors have a release schedule or cycle for applying patches and updates to their software. It is recommended that customers read and understand what is being patched, or new features being introduced. These updates are often processed through route-to-live solutions. Proper testing can help to avoid outages caused by changes to the production environment.
 
@@ -216,15 +238,9 @@ Ensuring IT systems are patched and up to date is standard practice for all soft
 
 Anti-malware or antivirus is always recommended to be deployed on all servers throughout the infrastructure. Antivirus does provide a good first line of defense against known malware, and many other types of viruses. One of the more complex aspects of antivirus is ensuring that the virus definitions are updated regularly, especially within non-persistent VDI or hosted shared workloads. There are many articles that detail ways of redirecting antivirus definitions to persistent drives and ensuring that the machines are identified as individual objects in the antivirus management suite. Follow these guidelines to ensure that an antivirus solution is deployed and installed correctly. Antivirus vendors will have their own recommended practices for deploying their antimalware software. We recommended following their guidelines for correct integration. You can read more in [Endpoint Security and Antivirus Best Practices](https://docs.citrix.com/en-us/tech-zone/build/tech-papers/antivirus-best-practices.html).
 
-### Workload separation
-
-Placing resources into separate silos has long been a recommended practice. Not only at the resource layer but also in both the hardware and networking layers, which we cover later in this article. Separating workloads into various delivery groups or machine catalogs will not only help fine-tune security policies to a set of machines but also reduce the impact of a security breach. If you have a set of high-risk users accessing high impact data, then these must be separated off into an appropriately configured segregated environment with much stricter policies and logging applied. Capabilities such as session recording provides an extra layer of protection when using are accessing this data.
-
-Workloads can be separated on different levels - hardware separation (dedicated hosts), VM separation, or even inside OS separation (for example app masking or strict NTFS rules). As part of separating users into various tiers of risk profiles, the data they access must also be treated similarly. This involves applying the correct file permissions and access rules to data.
-
 ### Application Control
 
-Technologies such as AppLocker can be difficult to implement, but they are powerful tools. Especially in terms of protecting servers with published applications. Being able to granularly lock down the environment to the Executable level. Clearly defining what can or cannot run, and by whom is highly beneficial. Not to mention the logging capabilities during applications launch. In a large enterprise environment with more than 500 applications, all of these things need to be carefully considered.
+Technologies such as AppLocker can be difficult to implement, but they are powerful tools. Especially in terms of protecting servers with published applications with predictable usage patterns. Being able to granularly lock down the environment to the Executable level. Clearly defining what can or cannot run, and by whom is highly beneficial. Not to mention the logging capabilities during applications launch. In a large enterprise environment with more than 500 applications, all of these things need to be carefully considered.
 
 ### Windows Policies
 
@@ -233,7 +249,7 @@ When Windows policies are applied to a session host, whether it be a VDI based w
 -  Hardening the operating system
 -  Optimizing the user experience
 
-To simplify the management of operating systems, these policies must be applied through Microsoft Group Policy. This eases the image creation process. If Group Policy is not used, then an alternative method of delivering the lockdowns must be found. Hardening and optimizations that can't be delivered via policy and must be automated as part of the image build process.
+To simplify the management of operating systems, these policies must be applied through Microsoft Group Policy. This eases the image creation process. If Group Policy is not used, then an alternative method of delivering the lockdowns must be found. Hardening and optimizations that can't be delivered via policy must be automated as part of the image build process.
 
 Always make sure that the operating system is hardened before users can gain access to it. Users must only be able to carry out the minimal number of tasks that are required to perform their role. Any administrative based applications must be secured, and access disabled for general users. This reduces the risk of a user being able to 'break out' out their session and potentially either gaining access to unauthorized data or perform malicious acts within the operating system.
 
@@ -253,19 +269,33 @@ First, a lockdown, or control is applied in a build consistently across all the 
 
 Second, during the lifespan of a user session on a VDA, the user may open other applications, documents, and access sensitive data. This is ultimately cached on the virtual desktop or within the application. Once the user is then logged off remnants of data will undoubtedly be left behind. After a session is logged off rebooting the machine and reverting to the original golden master image provides a level of reassurance that any sensitive data is wiped clean. Everything is ready for the next user to log in and commence work without the risk of accessing the previous user's data. You can find more information here [Image Management reference architecture](/en-us/tech-zone/design/reference-architectures/image-management.html).
 
-Here are some considerations for single image management. Be mindful of antivirus configurations. Don’t create accounts on a template or image before Machine Creation Services or Provisioning Services has an opportunity to copy the entire image. Do not schedule tasks using stored privileged domain accounts. Service accounts must have a dedicated account with the relevant permissions applied. Maintaining these security practices help prevent a machine attack from obtaining local persistent account passwords and then using them to log on to MCS/PVS shared images belonging to others.
+Here are some considerations for single image management. Be mindful of antivirus configurations. Don’t create accounts on a template or image before Machine Creation Services or Provisioning Services has an opportunity to copy the entire image. Do not schedule tasks using stored privileged domain accounts. Service accounts must have a dedicated account with the relevant permissions applied. Make sure to remove all log files, configuration files and other information sources that attacker can use to learn about your environment. Maintaining these security practices help prevent a machine attack from obtaining local persistent account passwords and then using them to log on to MCS/PVS shared images belonging to others.
+
+### Workload separation
+
+Placing resources into separate silos has long been a recommended practice. Not only at the resource layer but also in both the hardware and networking layers, which we cover later in this article. Separating workloads into various delivery groups or machine catalogs will not only help fine-tune security policies to a set of machines but also reduce the impact of a security breach. If you have a set of high-risk users accessing high impact data, then these must be separated off into an appropriately configured segregated environment with much stricter policies and logging applied. Capabilities such as session recording provides an extra layer of protection when using are accessing this data.
+
+Workloads can be separated on different levels - hardware separation (dedicated hosts), VM separation, or even inside OS separation (for example app masking or strict NTFS rules). As part of separating users into various tiers of risk profiles, the data they access must also be treated similarly. This involves applying the correct file permissions and access rules to data.
+
+TODO workload AND data separation. Consider isolating more critical resources from higher-risk user activities like web browsing and email access. Determine if these resources have varying degrees of criticality to your business. For example, is some data more sensitive than others or does it have higher confidentiality requirements? Minimize open firewall ports or disable routing entirely between network zones of different security levels.
 
 ### Session Recording
 
 Session Recording provides IT teams with the ability to record and replay video of what transpired during a given users session. This can be used in the case of a user was carrying out something malicious within the environment. This ability may not be needed for all users but can be enabled for key individuals, user groups, or when accessing sensitive applications, desktops, or resources. Many takeaways can be gleaned from these recordings that might not be possible with just Windows event and application logs. These can be helpful in an incident response scenario or root cause analysis. This feature is powerful and must be carefully considered based on your user policies and agreements with your legal and IT team's approval.
 
-### App Protection Policies
+### Watermarking
 
-Recently Citrix has released more controls that can be implemented to provide higher level of security control when accessing the environment. With App Protection policies that include anti-keylogging and anti-screen capture, we provide reassurance that if an attempt is made to egress data during a session, that some level of due diligence has been carried out by the IT to deter users from doing so. What about if someone is taking a photograph of the screen, you ask? Citrix offers watermarking functionality which doesn't stop an individual from taking the picture, but it does watermark the session with key details so that the screenshot can be traced back to its origin. Although it may not entirely stop someone from taking a picture, at least it can be traced back to the source of egress.
+For sessions that have a user accessing sensitive data, a great deterrent to having the data be stolen is a watermark. Especially if the watermark can uniquely identify the user. Citrix enables admins to configure what to display. This includes use logon name, client IP address, VDA IP address, VDA host name, login timestamp, and even customized text. Being a server-side feature it is applicable to all sessions (not just on specific endpoints) and is immune to process termination at the end point by the user as a workaround.
+
+Learn more about session watermarking [in product documentation](/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/session-watermark-policy-setting.html).
 
 ### Concurrent Usage
 
-A more contentious topic than Concurrent Usage has been the use of multi-session hosts vs single user VDI sessions. Having multiple users log on to a single server can cause issues, especially if a disgruntled user can run software or code to commence hiving up other credentials or browsing into other user directories. If a 1:1 mapping of a user to a desktop is achieved, then this risk can be mitigated. Running a solid virtual desktop infrastructure does come at an extra cost and these trade-offs need to be considered. Threat modeling users and selecting the most efficient delivery mechanism in terms of a multiuser session host or single user session host is the ideal path. One size does not fit all. Users and carrying out user profiling in understanding these requirements and then selecting the best delivery method of workloads for the user groups.
+A more contentious topic than Concurrent Usage has been the use of multi-session hosts vs single user VDI sessions. Having multiple users log on to a single server can cause issues, especially if a disgruntled user can run software or code to harvest other credentials or access other user data. Running a solid virtual desktop infrastructure does come at an extra cost and these trade-offs need to be considered. Threat modeling users and selecting the most efficient delivery mechanism in terms of a multiuser session host or single user session host is the ideal path. One size does not fit all. Users and carrying out user profiling in understanding these requirements and then selecting the best delivery method of workloads for the user groups.
+
+### Protect User Credentials
+
+TODO
 
 ### Virtualization-based Security
 
@@ -275,6 +305,15 @@ Virtualization-based security (VBS) uses a secure portion of memory to store sec
 
 The control tier is the layer of the solution that allows administrators to manage the Citrix environment, along with permitting user access to resources. Details on enabling resources to communicate with one another can be found in this section. Due to the integration of this layer, ensuring that components can integrate and communicate securely is key. The following reduces the security posture of the components.
 
+### Ensure Availability
+
+TODO Consider separating key components (Delivery Controller, SQL Server, StoreFront, Federated Authentication Service, etc.) into individual virtual machines.
+TODO N + 1
+
+### Encrypt Data Flows
+
+TODO
+
 ### Build Hardening
 
 As discussed in the **Resource Layer** section, it is highly recommended to harden the operating system and the services that are deployed. This will involves disabling any unused services, scheduled tasks, or features. Be sure not to impact the elements that are used to reduce the attack service on the machine. There are baselines such as the CIS and Microsoft security baselines that can be used to lock down virtual machines running in the environment. Including both the session servers that host the user sessions and the control services such as cloud connectors and supporting infrastructure. An infrastructure machine must equally have any services, features, or scheduled tasks disabled that are not required for the service to operate.
@@ -282,6 +321,10 @@ As discussed in the **Resource Layer** section, it is highly recommended to hard
 ### Service Account Hardening
 
 Some elements of a Citrix solution require the use of service accounts. Service accounts allow for automated functions to progress with some level of authentication and authorization. A service account must only be allowed to carry out the task that is required and must not have any elevated access on the network. Service accounts must be created for each automated function. This inherently narrows down the authorization elements and ensures that no privilege creep occurs within the service. We recommend ensuring service account passwords are reset at least yearly or more frequently based on your compliance requirements. These accounts and or groups must also be in Protected User groups within the Active Directory for extra protection and logging.
+
+TODO Deny interactive logon rights for service accounts where possible.
+
+TODO Periodically audit account permissions.
 
 ### Least Privilege
 
