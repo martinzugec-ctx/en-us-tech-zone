@@ -11,16 +11,16 @@ description: Tech paper focused on security recommendations and security practic
 
 ## Introduction
 
-Global organizations including healthcare, government, and financial services rely on Citrix Virtual Apps and Desktops to provide secure remote access to environments and applications. When properly configured, Citrix Virtual Apps and Desktops can provide security measures that extend well beyond what is natively available in enterprise operating systems. Citrix provides extra controls that are enabled through virtualization.
+Global organizations—including healthcare, government, and financial services—rely on Citrix Virtual Apps and Desktops to provide secure remote access to environments and applications. When properly configured, Citrix Virtual Apps and Desktops can provide security measures that extend well beyond what is natively available in enterprise operating systems. Citrix provides extra controls that you enable using virtualization.
 
-This tech paper outlines recommendations, and resources for establishing a security baseline for your virtualized environment. It highlights some of the most important security improvements you can perform. All changes must be implemented in a test or development environment before modifying your production environment. This process can help you to avoid any unexpected problems.
+This tech paper shares recommendations and resources to help you establish a security baseline for your virtualized environment. We highlight some of the most important security improvements you can make. Always try out changes like these in a test or development environment before you modify your production environment. Testing can help you avoid unexpected problems or results.
 
-The information provided in this tech paper is using the traditional Citrix layered methodology used by professional services as shown:
+This tech paper uses the traditional layered methodology developed by Citrix professional services:
 
 ![Layered Approach](/en-us/tech-zone/build/media/tech-papers_cvad-security-best-practices_001.png)
 _Citrix Consulting Layered Approach_
 
-As shown in the diagram, security does not have its own layer. Any security process or functionality is intertwined with all the layers and is crucial that it is covered throughout an infrastructure, including the processes surrounding it.
+In the Citrix layered model, security does not have its own layer. That's because any security process or security functionality is intertwined with all of the layers. It's crucial that security is covered throughout an infrastructure, including the processes surrounding it.
 
 Many security controls are integrated into an environment in the early phases of a project. However, security risks are constantly evolving, and revisiting the controls and procedures in place is a continuous process and needs to be revisited frequently. All efforts must be reinforced and validated through penetration testing against the virtualized environment overall. This approach provides the greatest level of resiliency against a real-world attack.
 
@@ -206,7 +206,7 @@ The resources that host the user session can present a higher level of risk to c
 
 Hardening operating system builds can be complex and difficult to achieve. It comes with the trade-offs between user experience, usability, and security all being a fine balance. Many customers choose to follow the Center for Internet Security (CIS) baselines for hardening virtual machines in varying roles. Microsoft also provides hardening guides for similar workloads. There are even the ADMX files to implement directly into group policy. If you choose this route, proceed with caution. Be sure to test thoroughly first, as these initial policies may be overly restrictive. These baselines are a great starting point for hardening, however they are not meant to be exhaustive for all scenarios. The key to locking down is to test thoroughly and encourage third party penetration testing engagements to validate your security controls and their effectiveness against the latest attack methods.
 
-As part of hardening the system, we recommended that administrators spend some time optimizing the underlying operating systems, services, and scheduled tasks. This removes any unnecessary processes from the underlying systems. This improves the responsiveness of the session host and provides an improved user experience to the end-user. Citrix provides the optimizer tool [Citrix Optimizer](https://support.citrix.com/article/CTX224676) that optimizes many elements of the operating system automatically for administrators. the Citrix Optimizer results to adjust to ensure there is no negative impact within your environment.
+As part of hardening the system, we recommended that administrators spend some time optimizing the underlying operating systems, services, and scheduled tasks. This removes any unnecessary processes from the underlying systems. This improves the responsiveness of the session host and provides an improved user experience to the end-user. Citrix provides the optimizer tool [Citrix Optimizer](https://support.citrix.com/article/CTX224676) that optimizes many elements of the operating system automatically for administrators. The Citrix Optimizer results to adjust to ensure there is no negative impact within your environment.
 
 ### Windows Patching
 
