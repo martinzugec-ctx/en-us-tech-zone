@@ -7,6 +7,6 @@ description: Paper about optimizer
 tz_title: Citrix Optimizer
 tz_products: citrix-virtual-apps-and-desktops
 ---
-# Content Type : Citrix Optfdsaima
+# Tech Paper: Citrix Optimizer
 
 ## Header1

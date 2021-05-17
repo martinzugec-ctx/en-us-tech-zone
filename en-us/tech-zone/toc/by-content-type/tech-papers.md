@@ -7,6 +7,8 @@ Technical deep dives into specific problem, technology or solution providing det
 
 ## Citrix Virtual Apps and Desktops
 
+[Citrix Optimizer](/en-us/tech-zone/build/tech-papers/citrix-optimizer.html) - Paper about optimizer
+
 [Deploying Google Chrome](/en-us/tech-zone/build/tech-papers/google-chrome.html) - Tech Paper focused on installation, configuration, and various optimizations for Google Chrome browser running on Citrix Virtual Apps and Desktops.
 
 ## Citrix Workspace
