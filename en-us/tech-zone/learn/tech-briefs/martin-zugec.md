@@ -7,6 +7,6 @@ description: TODO insert description of article
 tz_title: Martin Zugec article
 tz_products: citrix-analytics;
 ---
-# Tech Brief: TODO insert title or article
+# Tech Brief: Martin Zugec article
 
 ## Header1
