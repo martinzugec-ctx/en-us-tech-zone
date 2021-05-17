@@ -25,6 +25,8 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Citrix Gateway and Citrix Virtual Apps and Desktops](/en-us/tech-zone/learn/tech-briefs/citrix-gateway-virtual-apps-desktops.html) - Learn why Citrix Gateway is the best secure remote access solution for Citrix Virtual Apps and Desktops.
 
+[Citrix Web App and API Protection service](/en-us/tech-zone/learn/tech-briefs/citrix-waap.html) - With cyber threats rising and modern application architectures getting more complex, organizations need a more straightforward way to defend against bots, DDoS, zero-day exploits, and other attacks. Learn how Citrix Web App and API Protection (CWAAP) service can provide effective security against these attacks.
+
 [Gateway service for HDX Proxy](/en-us/tech-zone/learn/tech-briefs/gateway-hdxproxy.html) - Provides users with secure remote access to Citrix Virtual Apps and Desktops without having to deploy Citrix Gateway in the on-premises DMZ or reconfigure firewalls.
 
 [Multifactor Authentication with Citrix nFactor](/en-us/tech-zone/learn/tech-briefs/citrix-nfactor-mfa.html) - Learn how you can implement various Multifactor Authentication methods with Citrix ADC nFactor Authentication.
@@ -38,6 +40,8 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 [SD-WAN for Home Offices](/en-us/tech-zone/learn/tech-briefs/citrix-sdwan-home-office.html) - Learn how to work from home with secure, enhanced, and resilient connectivity using the Citrix SD-WAN 110 appliance.
 
 [SD-WAN for Workspace](/en-us/tech-zone/learn/tech-briefs/sdwan-workspace.html) - Provides optimal network connectivity between Enterprise branch offices and their Workspace hosted in data resource locations on-premises or in the cloud.
+
+[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ## Learn - PoC Guides
 
