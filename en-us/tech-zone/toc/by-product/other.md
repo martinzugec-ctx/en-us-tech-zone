@@ -11,6 +11,8 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Business Continuity](/en-us/tech-zone/learn/tech-briefs/business-continuity.html) - Business continuity events can have a regional or global impact. Learn about the different ways Citrix allows users to remain productive when making it to the office is not possible.
 
+[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+
 ## Design - Design Decisions
 
 Design decisions helps you guide through the decision process to configure, optimize, and deploy your solution in its best way.
