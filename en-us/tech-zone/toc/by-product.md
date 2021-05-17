@@ -395,6 +395,8 @@ Deployment guides provide step-by-step instruction on how to perform key tasks a
 
 Tech papers are deep dives into specific problem, technology or solution providing details, leading practices and architectural insights.
 
+[Citrix Optimizer](/en-us/tech-zone/build/tech-papers/citrix-optimizer.html) - Paper about optimizer
+
 [Deploying Google Chrome](/en-us/tech-zone/build/tech-papers/google-chrome.html) - Tech Paper focused on installation, configuration, and various optimizations for Google Chrome browser running on Citrix Virtual Apps and Desktops.
 
 ## Citrix Virtual Apps and Desktops Standard for Azure
