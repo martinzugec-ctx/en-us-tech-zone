@@ -41,8 +41,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [SD-WAN for Workspace](/en-us/tech-zone/learn/tech-briefs/sdwan-workspace.html) - Provides optimal network connectivity between Enterprise branch offices and their Workspace hosted in data resource locations on-premises or in the cloud.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ## Learn - PoC Guides
 
 PoC guides provide step-by-step instructions to learn about functionality of the solution by following these guides in test environment.
