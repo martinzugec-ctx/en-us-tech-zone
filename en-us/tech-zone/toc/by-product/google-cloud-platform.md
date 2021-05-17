@@ -5,6 +5,12 @@ layout: doc
 
 List of articles related to Google Cloud Platform.
 
+## Learn - Tech Briefs
+
+Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
+
+[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+
 ## Learn - PoC Guides
 
 PoC guides provide step-by-step instructions to learn about functionality of the solution by following these guides in test environment.
