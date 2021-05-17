@@ -21,7 +21,7 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Analytics](/en-us/tech-zone/learn/tech-briefs/analytics.html) - Provide visibility into your environment to protect it from malicious users and to improve the end user experience proactively.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+[Martin Zugec article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ### Design - Reference Architectures
 
@@ -30,12 +30,6 @@ Reference architectures are comprehensive guides that assist organizations in pl
 [Citrix Analytics](/en-us/tech-zone/design/reference-architectures/citrix-analytics.html) - Learn about analytics services offered by Citrix Cloud including security analytics, performance analytics, and integration with other Citrix portfolio products.
 
 ## Citrix Content Collaboration
-
-### Learn - Tech Briefs
-
-Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ### Design - Reference Architectures
 
@@ -72,8 +66,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 [Citrix Endpoint Management](/en-us/tech-zone/learn/tech-briefs/citrix-endpoint-management.html) - Learn about Unified Endpoint Management and let employees work how, when and where they want with the power to manage every app, device and platform in one central location.
 
 [Mobile SSO](/en-us/tech-zone/learn/tech-briefs/mobile-sso.html) - Native mobile app single sign-on for iOS and Android SaaS applications.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ### Design - Reference Architectures
 
@@ -124,8 +116,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 [SD-WAN for Home Offices](/en-us/tech-zone/learn/tech-briefs/citrix-sdwan-home-office.html) - Learn how to work from home with secure, enhanced, and resilient connectivity using the Citrix SD-WAN 110 appliance.
 
 [SD-WAN for Workspace](/en-us/tech-zone/learn/tech-briefs/sdwan-workspace.html) - Provides optimal network connectivity between Enterprise branch offices and their Workspace hosted in data resource locations on-premises or in the cloud.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ### Learn - PoC Guides
 
@@ -207,8 +197,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Citrix Secure Internet Access](/en-us/tech-zone/learn/tech-briefs/secure-internet-access.html) - The expansive demand for remote work and the shift of applications to the cloud has made it an absolute must for enterprises to secure user Internet access. Citrix Secure Internet Access (CSIA) shifts the focus from defending perimeters to following users to ensure Internet access is secure regardless of location.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ### Learn - PoC Guides
 
 PoC guides provide step-by-step instructions to learn about functionality of the solution by following these guides in test environment.
@@ -239,8 +227,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Secure Workspace Access](/en-us/tech-zone/learn/tech-briefs/secure-workspace-access.html) - With Secure Workspace Access, organizations go beyond access and aggregation to provide IT with policy controls that provide conditional access to cloud apps and internet browsing, enhancing the organization's overall security and compliance posture.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ### Learn - PoC Guides
 
 PoC guides provide step-by-step instructions to learn about functionality of the solution by following these guides in test environment.
@@ -262,12 +248,6 @@ Reference architectures are comprehensive guides that assist organizations in pl
 [Secure Workspace Access](/en-us/tech-zone/design/reference-architectures/access-control.html) - Gain knowledge about the Citrix Secure Workspace Access solution including key concepts, use cases, and strategies for implementing this comprehensive security solution for an organization's apps and data.
 
 ## Citrix Service Providers
-
-### Learn - Tech Briefs
-
-Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ### Design - Reference Architectures
 
@@ -312,8 +292,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 [Enhancing Windows Virtual Desktop](/en-us/tech-zone/learn/tech-briefs/windows-virtual-desktop-value-add.html) - Learn about the value add Citrix provides to your Windows Virtual Desktop environment running in Microsoft Azure. Citrix Virtual Apps and Desktops service provides a cloud-based management, provisioning, and capacity management solution for delivering virtual apps and desktops to any device. See how cost savings can be achieved while delivering a superlative user experience and enhancing the security posture of our deployment.
 
 [Local Host Cache / High Availability mode for Citrix Virtual Apps and Desktops Service](/en-us/tech-zone/learn/tech-briefs/local-host-cache-ha-cvads.html) - Inside view on how Local Host Cache (LHC) works with Citrix Virtual Apps and Desktops Service. Learn how the different components of LHC come into play to keep you in control of your uptimes.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 [Workspace Environment Management](/en-us/tech-zone/learn/tech-briefs/workspace-environment-mgmt.html) - Learn how Workspace Environment Management uses intelligent resource management and Profile Management technologies to deliver the best possible performance, desktop logon, and application response times for Citrix Virtual Apps and Desktops sessions, as well as enhances the security of the deployment.
 
@@ -433,8 +411,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Citrix Virtual Apps and Desktops Standard for Azure](/en-us/tech-zone/learn/tech-briefs/citrix-managed-desktops.html) - Delivers Windows apps and desktops from Microsoft Azure based on Windows Virtual Desktop. Citrix Virtual Apps and Desktops Standard for Azure offers cloud-based management, provisioning, and managed capacity for delivering virtual apps and desktops to any device.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ### Design - Reference Architectures
 
 Reference architectures are comprehensive guides that assist organizations in planning their Citrix implementations complete with use cases, recommendations, and more.
@@ -475,8 +451,6 @@ Tech Insights are short, 10-15 minutes videos explaining a technology, a feature
 
 Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 [Workspace app](/en-us/tech-zone/learn/tech-briefs/workspace-app.html) - Personalized interface that provides access to all assigned SaaS apps, web apps, virtual Windows apps, virtual Linux apps, desktops, and data.
 
 [Workspace Identity](/en-us/tech-zone/learn/tech-briefs/workspace-identity.html) - Learn how Citrix Workspace utilizes a secure primary identity to broker authorization to SaaS, web, mobile and virtual apps.
@@ -515,8 +489,6 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [App protection](/en-us/tech-zone/learn/tech-briefs/app-protection-policies.html) - App protection policies protect application data from attacks based on keyloggers and screen capture tools. Allow companies to embrace BYOD, and extend resources to remote workers, contractors, and gig economy workers.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 [Zero Trust](/en-us/tech-zone/learn/tech-briefs/zero-trust.html) - Zero Trust is the most important End User Computing movement since Mobile and Cloud. The Citrix Zero Trust Architecture enables the "any-any-any" vision that Citrix has been espousing for years and is secured by access policies that take trust into context.
 
 ### Learn - PoC Guides
@@ -545,12 +517,6 @@ Tech papers are deep dives into specific problem, technology or solution providi
 
 ## Google Cloud Platform
 
-### Learn - Tech Briefs
-
-Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ### Learn - PoC Guides
 
 PoC guides provide step-by-step instructions to learn about functionality of the solution by following these guides in test environment.
@@ -569,12 +535,6 @@ Reference architectures are comprehensive guides that assist organizations in pl
 
 ## Third Party Content
 
-### Learn - Tech Briefs
-
-Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ### Design - Reference Architectures
 
 Reference architectures are comprehensive guides that assist organizations in planning their Citrix implementations complete with use cases, recommendations, and more.
@@ -588,8 +548,6 @@ Reference architectures are comprehensive guides that assist organizations in pl
 Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
 
 [Business Continuity](/en-us/tech-zone/learn/tech-briefs/business-continuity.html) - Business continuity events can have a regional or global impact. Learn about the different ways Citrix allows users to remain productive when making it to the office is not possible.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ### Design - Design Decisions
 

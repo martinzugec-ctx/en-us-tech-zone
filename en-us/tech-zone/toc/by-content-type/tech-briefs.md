@@ -10,19 +10,13 @@ Short overview documents explaining a technology, a feature, a function next to 
 
 [Analytics](/en-us/tech-zone/learn/tech-briefs/analytics.html) - Provide visibility into your environment to protect it from malicious users and to improve the end user experience proactively.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
-## Citrix Content Collaboration
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+[Martin Zugec article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ## Citrix Endpoint Management
 
 [Citrix Endpoint Management](/en-us/tech-zone/learn/tech-briefs/citrix-endpoint-management.html) - Learn about Unified Endpoint Management and let employees work how, when and where they want with the power to manage every app, device and platform in one central location.
 
 [Mobile SSO](/en-us/tech-zone/learn/tech-briefs/mobile-sso.html) - Native mobile app single sign-on for iOS and Android SaaS applications.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ## Citrix Networking
 
@@ -44,25 +38,15 @@ Short overview documents explaining a technology, a feature, a function next to 
 
 [SD-WAN for Workspace](/en-us/tech-zone/learn/tech-briefs/sdwan-workspace.html) - Provides optimal network connectivity between Enterprise branch offices and their Workspace hosted in data resource locations on-premises or in the cloud.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ## Citrix Secure Internet Access
 
 [Citrix Secure Internet Access](/en-us/tech-zone/learn/tech-briefs/secure-internet-access.html) - The expansive demand for remote work and the shift of applications to the cloud has made it an absolute must for enterprises to secure user Internet access. Citrix Secure Internet Access (CSIA) shifts the focus from defending perimeters to following users to ensure Internet access is secure regardless of location.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ## Citrix Secure Workspace Access
 
 [Citrix Workspace Essentials and Secure Workspace Access Getting Started Guide](/en-us/tech-zone/learn/tech-briefs/citrix-workspace-essentials-quickstart.html) - This guide demonstrates how to configure SaaS and internal web apps with single sign-on (SSO) in Citrix Workspace.
 
 [Secure Workspace Access](/en-us/tech-zone/learn/tech-briefs/secure-workspace-access.html) - With Secure Workspace Access, organizations go beyond access and aggregation to provide IT with policy controls that provide conditional access to cloud apps and internet browsing, enhancing the organization's overall security and compliance posture.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
-## Citrix Service Providers
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ## Citrix Virtual Apps and Desktops
 
@@ -76,19 +60,13 @@ Short overview documents explaining a technology, a feature, a function next to 
 
 [Local Host Cache / High Availability mode for Citrix Virtual Apps and Desktops Service](/en-us/tech-zone/learn/tech-briefs/local-host-cache-ha-cvads.html) - Inside view on how Local Host Cache (LHC) works with Citrix Virtual Apps and Desktops Service. Learn how the different components of LHC come into play to keep you in control of your uptimes.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 [Workspace Environment Management](/en-us/tech-zone/learn/tech-briefs/workspace-environment-mgmt.html) - Learn how Workspace Environment Management uses intelligent resource management and Profile Management technologies to deliver the best possible performance, desktop logon, and application response times for Citrix Virtual Apps and Desktops sessions, as well as enhances the security of the deployment.
 
 ## Citrix Virtual Apps and Desktops Standard for Azure
 
 [Citrix Virtual Apps and Desktops Standard for Azure](/en-us/tech-zone/learn/tech-briefs/citrix-managed-desktops.html) - Delivers Windows apps and desktops from Microsoft Azure based on Windows Virtual Desktop. Citrix Virtual Apps and Desktops Standard for Azure offers cloud-based management, provisioning, and managed capacity for delivering virtual apps and desktops to any device.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 ## Citrix Workspace
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 [Workspace app](/en-us/tech-zone/learn/tech-briefs/workspace-app.html) - Personalized interface that provides access to all assigned SaaS apps, web apps, virtual Windows apps, virtual Linux apps, desktops, and data.
 
@@ -102,20 +80,8 @@ Short overview documents explaining a technology, a feature, a function next to 
 
 [App protection](/en-us/tech-zone/learn/tech-briefs/app-protection-policies.html) - App protection policies protect application data from attacks based on keyloggers and screen capture tools. Allow companies to embrace BYOD, and extend resources to remote workers, contractors, and gig economy workers.
 
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
 [Zero Trust](/en-us/tech-zone/learn/tech-briefs/zero-trust.html) - Zero Trust is the most important End User Computing movement since Mobile and Cloud. The Citrix Zero Trust Architecture enables the "any-any-any" vision that Citrix has been espousing for years and is secured by access policies that take trust into context.
-
-## Google Cloud Platform
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
-
-## Third Party Content
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
 
 ## Other
 
 [Business Continuity](/en-us/tech-zone/learn/tech-briefs/business-continuity.html) - Business continuity events can have a regional or global impact. Learn about the different ways Citrix allows users to remain productive when making it to the office is not possible.
-
-[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
