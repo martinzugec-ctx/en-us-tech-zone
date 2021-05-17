@@ -23,6 +23,8 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Secure Workspace Access](/en-us/tech-zone/learn/tech-briefs/secure-workspace-access.html) - With Secure Workspace Access, organizations go beyond access and aggregation to provide IT with policy controls that provide conditional access to cloud apps and internet browsing, enhancing the organization's overall security and compliance posture.
 
+[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+
 ## Learn - PoC Guides
 
 PoC guides provide step-by-step instructions to learn about functionality of the solution by following these guides in test environment.

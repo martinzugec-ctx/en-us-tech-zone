@@ -25,6 +25,8 @@ Tech Briefs are short overview documents explaining a technology, a feature, a f
 
 [Mobile SSO](/en-us/tech-zone/learn/tech-briefs/mobile-sso.html) - Native mobile app single sign-on for iOS and Android SaaS applications.
 
+[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+
 ## Design - Reference Architectures
 
 Reference architectures are comprehensive guides that assist organizations in planning their Citrix implementations complete with use cases, recommendations, and more.

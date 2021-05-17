@@ -37,6 +37,8 @@ Tech Insights are short, 10-15 minutes videos explaining a technology, a feature
 
 Tech Briefs are short overview documents explaining a technology, a feature, a function next to a technical diagram.
 
+[TODO insert title or article](/en-us/tech-zone/learn/tech-briefs/martin-zugec.html) - TODO insert description of article
+
 [Workspace app](/en-us/tech-zone/learn/tech-briefs/workspace-app.html) - Personalized interface that provides access to all assigned SaaS apps, web apps, virtual Windows apps, virtual Linux apps, desktops, and data.
 
 [Workspace Identity](/en-us/tech-zone/learn/tech-briefs/workspace-identity.html) - Learn how Citrix Workspace utilizes a secure primary identity to broker authorization to SaaS, web, mobile and virtual apps.
